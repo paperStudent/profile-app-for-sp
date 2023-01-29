@@ -1,9 +1,5 @@
 import styled from 'styled-components';
 
-type Props = {
-	//propsの型を定義
-};
-
 export const HeaderTitle = () => {
 
 	return (

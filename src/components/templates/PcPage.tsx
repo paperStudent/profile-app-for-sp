@@ -4,7 +4,7 @@ import { useMemo } from "react";
 export const PcPage = () => {
 
 	//ブラウザの高さ取得
-	const windowHeightCss = useMemo(() => {
+	const windowHeightCss: number = useMemo(() => {
 		return window.innerHeight;
 	}, []);
 

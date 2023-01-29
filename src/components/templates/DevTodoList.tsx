@@ -3,7 +3,6 @@ import imgPc from "img/icon_pc.jpg";
 
 export const DevTodoList = () => {
 
-
 	return (
 
 		<>

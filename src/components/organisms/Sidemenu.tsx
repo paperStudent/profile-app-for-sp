@@ -1,12 +1,12 @@
 import { List } from 'components/molecules/List';
 import styled from 'styled-components';
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import { Link } from 'react-router-dom';
 
 
 type Props = {
 	sidemenuState: boolean,
-	onClick: any
+	onClick: any//要修正
 };
 
 export const Sidemenu = (props: Props) => {

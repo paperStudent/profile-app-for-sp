@@ -6,15 +6,11 @@ type Props = {
 	sidemenuState: boolean,
 };
 
-
 export const SidemenuSwitch = (props: Props) => {
 
-	let switchType = props.sidemenuState ? <IconClose /> : <IconMenu /> ;
-
 	return (
-
 			<StyledSidemenuSwitch >
-				{ switchType }
+				{props.sidemenuState ? <IconClose /> : <IconMenu /> }
 			</StyledSidemenuSwitch>
 	);
 

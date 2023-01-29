@@ -16,7 +16,7 @@ function App() {
 
 	const [sidemenuState, setSidemenuState] = useState<boolean>(false);
 
-	const clickSidemenu = () => {
+	const clickSidemenu = (): void => {
 		setSidemenuState(!sidemenuState);
 	};
 
@@ -29,7 +29,7 @@ function App() {
 		z-index: 5;
 	`;
 
-	const uaParserDevice = useMemo(() => {
+	const uaParserDevice = useMemo<string>(() => {
 		return UAParser(window.navigator.userAgent).device.type;
 	}, []);
 

@@ -3,10 +3,8 @@ import imgGitHub from "img/icon_github.svg";
 
 
 export const GitHub = () => {
-
-
+	
 	return (
-
 		<>
 			<SubPage
 				img={imgGitHub}
