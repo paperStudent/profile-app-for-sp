@@ -7,9 +7,10 @@ import { useState, useEffect, useMemo } from "react";
 import styled from 'styled-components';
 import { BrowserRouter,	Routes,	Route } from 'react-router-dom';
 import { DevTodoList } from "components/templates/DevTodoList";
-import { DevManagementSystem } from "components/templates/DevManagementSystem";
+import { TwitterAnalysis } from "components/templates/TwitterAnalysis";
 import { PcPage } from "components/templates/PcPage";
 import { UAParser } from "ua-parser-js";
+import { Voifull } from "components/templates/Voifull";
 
 
 function App() {
@@ -55,7 +56,8 @@ function App() {
 							<Route path="/" element={<Top />} />
 							<Route path="GitHub" element={<GitHub />} />
 							<Route path="DevTodoList" element={<DevTodoList />} />
-							<Route path="DevManagementSystem" element={<DevManagementSystem />} />
+							<Route path="TwitterAnalysis" element={<TwitterAnalysis />} />
+							<Route path="Voifull" element={<Voifull />} />
 						</Routes>
 					</main>
 

@@ -82,23 +82,6 @@ export const ProfileContents = () => {
 
 				<SwiperSlide>
 					<StyleUnit>
-						<img className='image work2' />
-						<p className='sub-title'>この仕事について</p>
-						<div className='description-wrap'>
-							<p className='description'>
-								一心不乱でコーディングしている時がとても幸せです。<br />
-								定時の鐘が鳴り、<br />
-								「もうこんな時間なんだ」と毎日思えるぐらい、<br />
-								没入できる仕事をこれからもしていきたいです。<br />
-								また自分の習得した技術によって利益が生まれたり、<br />
-								案件が前進したりする感覚に快感を覚えます。
-							</p>
-						</div>
-					</StyleUnit>
-				</SwiperSlide>
-
-				<SwiperSlide>
-					<StyleUnit>
 						<img className='image skills' />
 						<p className='sub-title'>スキル</p>
 						<div className='description-wrap'>
@@ -120,6 +103,23 @@ export const ProfileContents = () => {
 								<p>Lighthouse</p>
 								<p>Google Analytics 4</p>
 							</div>
+						</div>
+					</StyleUnit>
+				</SwiperSlide>
+
+				<SwiperSlide>
+					<StyleUnit>
+						<img className='image work2' />
+						<p className='sub-title'>この仕事について</p>
+						<div className='description-wrap'>
+							<p className='description'>
+								一心不乱でコーディングしている時がとても幸せです。<br />
+								定時の鐘が鳴り、<br />
+								「もうこんな時間なんだ」と毎日思えるぐらい、<br />
+								没入できる仕事をこれからもしていきたいです。<br />
+								また自分の習得した技術によって利益が生まれたり、<br />
+								案件が前進したりする感覚に快感を覚えます。
+							</p>
 						</div>
 					</StyleUnit>
 				</SwiperSlide>

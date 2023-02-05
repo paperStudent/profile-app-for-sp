@@ -66,14 +66,18 @@ export const Sidemenu = (props: Props) => {
 				</Link>
 			</List>
 			<List>
+				<Link to="TwitterAnalysis" onClick={props.onClick}>
+					個人開発: TwitterAnalysis
+				</Link>
+			</List>
+			<List>
 				<Link to="DevTodoList" onClick={props.onClick}>
 					個人開発: TodoList
 				</Link>
 			</List>
 			<List>
-				<Link to="DevManagementSystem" onClick={props.onClick}>
-					個人開発: 代理店管理システム<br />
-					※PC用サイト
+				<Link to="Voifull" onClick={props.onClick}>
+					案件: 音声通話アプリVoifull
 				</Link>
 			</List>
 
