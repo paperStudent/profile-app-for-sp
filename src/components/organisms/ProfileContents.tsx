@@ -28,8 +28,8 @@ export const ProfileContents = () => {
 						<p className='sub-title'>自己紹介</p>
 						<div className='description-wrap'>
 							<p className='description'>
-								Soichiro Niwa<br />
-								1996年 岐阜県生まれ<br />
+								S.N<br />
+								1996年生まれ<br />
 								職業：フロントエンドエンジニア
 							</p>
 						</div>
